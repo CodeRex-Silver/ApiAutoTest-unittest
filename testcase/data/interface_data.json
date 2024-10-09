@@ -1,0 +1,7 @@
+{
+    "create_coupon":{
+        "content":"创建优惠券",
+        "request":{"key":"value"},
+        "response":""
+    }
+}

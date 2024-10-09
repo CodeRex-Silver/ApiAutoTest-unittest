@@ -1,0 +1,19 @@
+{
+    "config": {
+      "login_url": "https://your-login-endpoint.com",
+      "refresh_url": "https://your-refresh-endpoint.com",
+      "username": "your_username",
+      "password": "your_password",
+      "secret_key": "your_secret_key",
+      "pool_size": 5
+    },
+    "constants": {
+      "session_pool_maxsize": 100,
+      "session_pool_max_retries": 3,
+      "max_retry_attempts": 3,
+      "retry_wait_time": 1000,
+      "request_timeout": 3,
+      "thread_pool_size": 10,
+      "refresh_token_check_interval": 10
+    }
+  }
