@@ -9,7 +9,7 @@ from functools import lru_cache
 @attr.s
 class Config:
     # 项目名称，默认值为'test'
-    project: str = attr.ib(default='testcase')
+    project: str = attr.ib(default='test')
     # 测试人员名称，默认值为'CodeRex'
     tester_name: str = attr.ib(default='CodeRex')
     # 结果文件名，默认值为'report'
